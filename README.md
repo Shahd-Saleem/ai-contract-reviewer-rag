@@ -51,16 +51,24 @@ The embeddings are stored in **ChromaDB**. When a user asks a question, the syst
 ## Project Structure
 
 ```text
-AI-Contract-Analyzer/
+document-qa-rag-bot/
+│
+├── docs/
+│   ├── commercial_lease_agreement...
+│   ├── Consumer_Services_Agreement...
+│   ├── employment_contract.txt
+│   ├── google_terms_of_service.pdf
+│   ├── predatory_vendor_contract.md
+│   ├── saas_terms_of_service.md
+│   └── service_agreement.txt
 │
 ├── app.py
 ├── main.py
-├── docs/
-├── chroma_db/
-├── .env
 ├── requirements.txt
 ├── README.md
-└── requirements.txt
+├── LICENSE
+├── .gitignore
+└── .env
 ```
 
 ### `app.py`
