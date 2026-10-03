@@ -59,7 +59,8 @@ AI-Contract-Analyzer/
 ├── chroma_db/
 ├── .env
 ├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ### `app.py`
